@@ -1,0 +1,51 @@
+:root {
+  --color-primary-wite: #fff;
+  --color-primary-light: #2b7fff;
+  --color-primary-dark: #011c44;
+  --color-sec-dark: #011f4a;
+  --color-sec-light: #ffd02b;
+  --color-sec-grey-dark: #4a4a4a;
+  --color-sec-grey-light: #747272;
+}
+
+/* Base */
+
+body {
+  color: var(--color-primary-dark);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* button */
+.button {
+  color: var(--color-primary-wite);
+  border-radius: 32px;
+  border: 2px solid var(--color-primary-light);
+  background: var(--color-primary-light);
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+}
+
+/* header*/
+
+.link {
+  color: var(--color-primary-dark);
+}
+
+.link:hover {
+  color: var(--color-primary-light);
+}
+
+/* section 1 */
+
+.inscription {
+}
+.hero-title {
+  color: var(--color-primary-light);
+}
